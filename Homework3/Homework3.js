@@ -14,9 +14,6 @@ function greetCustomer() {
 console.log (`Welcome to Busuyi's Palace Pizza, our toppings today are ${pizzaToppingsString}. When you are ready, kindly place your order, THANK YOU!`);
 }
 
-//Declare toppings Global Variable
-let toppings;
-
 // Create getPizzaOrder Function
 function getPizzaOrder(size, crust, ...toppings) {
 console.log (`One ${size} ${crust} pizza with toppings: ${toppings} coming up!`);
@@ -40,3 +37,6 @@ greetCustomer();
 const returnvalueofgetPizzaOrder = getPizzaOrder("large", "thick", ["pepperoni", " mushrooms", " onions"]);
 const returnvalueofpreparePizza = preparePizza(returnvalueofgetPizzaOrder);
 servePizza(returnvalueofpreparePizza);
+
+// Console.log the Final Pizza Object
+console.log(returnvalueofpreparePizza);
