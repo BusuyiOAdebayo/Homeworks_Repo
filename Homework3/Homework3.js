@@ -5,8 +5,16 @@ const pizzaToppings = ["pepperoni", "mushrooms", "onions", "black olives", "bana
 
 // Create pizzaToppings String
 let pizzaToppingsString = "";
-for (let element of pizzaToppings){
+/*for (let element of pizzaToppings) {
 pizzaToppingsString += element + ", ";
+}*/
+for (let i = 0; i < pizzaToppings.length; i++) {
+  if (i < pizzaToppings.length-1) {
+    pizzaToppingsString += pizzaToppings[i] + ", ";
+  }
+  else {
+    pizzaToppingsString += pizzaToppings[i];
+  }
 }
 
 // Create greetCustomer Function
