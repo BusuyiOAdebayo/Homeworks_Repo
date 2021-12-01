@@ -2,7 +2,7 @@
 
 // var pizzaPlace, numberOfToppings
 let pizzaPlace, numberOfToppings
-pizzaPlace = "Busuyi's Palace Pizza Place"
+pizzaPlace = "Busuyi's Pizza Palace"
 numberOfToppings = 10
 console.log(pizzaPlace);
 console.log(numberOfToppings);

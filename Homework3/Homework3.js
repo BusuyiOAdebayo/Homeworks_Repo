@@ -19,7 +19,7 @@ for (let i = 0; i < pizzaToppings.length; i++) {
 
 // Create greetCustomer Function
 function greetCustomer() {
-console.log (`Welcome to Busuyi's Palace Pizza, our toppings today are ${pizzaToppingsString}. When you are ready, kindly place your order, THANK YOU!`);
+console.log (`Welcome to Busuyi's Pizza Palace, our toppings today are ${pizzaToppingsString}. When you are ready, kindly place your order, THANK YOU!`);
 }
 
 // Create getPizzaOrder Function
