@@ -23,7 +23,7 @@ console.log (`Welcome to Busuyi's Pizza Palace, our toppings today are ${pizzaTo
 }
 
 // Create getPizzaOrder Function
-function getPizzaOrder(size, crust, ...toppings) {
+function getPizzaOrder(size, crust, toppings) {
   if (toppings == []) {
     console.log(`One ${size} ${crust} pizza coming up!`);
   }
@@ -52,6 +52,7 @@ return {size:size, crust:crust, toppings:toppings};
 
 // Function Calling
 greetCustomer();
+// toppings = "";
 toppings = ["pepperoni", " mushrooms", " onions"];
 let returnvalueofgetPizzaOrder = getPizzaOrder("large", "thick", toppings);
 let returnvalueofpreparePizza = preparePizza(returnvalueofgetPizzaOrder);
