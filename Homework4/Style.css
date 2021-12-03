@@ -1,9 +1,16 @@
-body {
-  background-color: powderblue;
-}
-h1 {
-  color: blue;
-}
-div {
-  color: red;
-}
+html {margin:0; padding:0;}
+body {margin:0; padding:0; width:100%; background-color:#a8c9d8; font:normal 12px/2.0em Sans-Serif;} 
+#page {margin: 0; padding:0; background:#fff;}
+#header, #main, #footer, #top-nav {margin:0; padding:0;}
+h1, h2, h3 {color:darkred;}
+#logo {padding:0; width:auto; float:left;}
+#logo h1 a {color:darkred; text-decoration:none;}
+#logo h1 span {color:#f8dbdb;}
+#top-nav {margin:0 auto; padding:0px 0 0; height:37px; float:right;}
+#top-nav ul {list-style:none; padding:0; height:37px; float:left;}
+#top-nav ul li {margin:0; padding:0 0 0 8px; float:left;}
+#top-nav ul li a {display:block; margin:0; padding:8px 20px; color:red; text-decoration:none;}
+#top-nav ul li.active a, #top-nav ul li a:hover {color:#f8dbdb;}
+/*body {background-color: powderblue;}
+h1 {color: blue;}
+div {color: red;}*/
